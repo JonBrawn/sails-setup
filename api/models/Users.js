@@ -23,7 +23,7 @@ module.exports = {
         meta: {
             collection: 'usermeta',
             via: 'owner'
-        }
+        },
 
         // We don't wan't to send back encrypted password either
         toJSON: function () {
